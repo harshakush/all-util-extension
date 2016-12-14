@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "SWYW!!",
+  "version": "0.1.0",
+  "description": "See What You Want! Harsha",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": [ "https://news.google.co.in/*" ]
+  }]
+ 
+}
